@@ -11,6 +11,7 @@
 ex) pictures/red.png
 2) run this code
 ~~~
+pip install -r requirements.txt
 python app.py
 ~~~
 
