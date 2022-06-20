@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Image Upload</title>
+</head>
+<body>
+    <SCRIPT language="JavaScript">
+    let val = '{{ value }}'
+    function moveHome()
+    {
+        location.href = "/";
+    }
+    function moveCreateQuestion()
+    {
+        location.href = "/create_question_again";
+    }
+    if (val == 'False')
+    {
+        document.write("<h1>Wrong Answer. Try Again!</h1>")
+        document.write('<button type="button" onclick="moveCreateQuestion();">뒤로가기</button>')
+    }
+    else
+    {
+        document.write("<h1>Right!</h1>")
+        document.write('<button type="button" onclick="moveHome();">처음으로</button>')
+    }
+    </SCRIPT>
+</body>

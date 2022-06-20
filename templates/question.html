@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Image Upload</title>
+</head>
+<body>
+    <img src="{{ url_for('static', filename='images/red.png') }}">
+    <SCRIPT language="JavaScript">
+        let sentence_list = {{ value|tojson }}
+        document.write('<form method="post" action="/result">')
+        for(i=0; i<=sentence_list.length - 1; i++)
+        {
+
+            document.write('<p><input type="radio" name="text" value="'+sentence_list[i]["text"]+'">('+i+')'+sentence_list[i]["text"]+'</input></p>')
+        }
+        document.write('<input type="submit" value="Submit">')
+        document.write('</form>')
+    </SCRIPT>
+
+</body>
