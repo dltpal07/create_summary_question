@@ -17,4 +17,4 @@ python app.py
 ## reference
 - object detection: https://github.com/clovaai/CRAFT-pytorch
 - OCR: https://github.com/clovaai/deep-text-recognition-benchmark
-- summerization: https://github.com/dmmiller612/bert-extractive-summarizer
+- Summerizer: https://github.com/dmmiller612/bert-extractive-summarizer
