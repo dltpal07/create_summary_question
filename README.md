@@ -13,3 +13,8 @@ ex) pictures/red.png
 ~~~
 python app.py
 ~~~
+
+## reference
+- object detection: https://github.com/clovaai/CRAFT-pytorch
+- OCR: https://github.com/clovaai/deep-text-recognition-benchmark
+- Summerizer: https://github.com/dmmiller612/bert-extractive-summarizer
