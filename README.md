@@ -21,3 +21,4 @@ python app.py
 - Summerizer: https://github.com/dmmiller612/bert-extractive-summarizer
 
 ## result video
+https://youtu.be/I46H4HH8f2o
